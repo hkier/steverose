@@ -53,26 +53,6 @@ const styles = {
     },
 }
 
-// const NavBar = () => {
-//     return (
-//         <div>
-//             <AppBar position="static" className="Menu-bar">
-//                 <Toolbar >
-//                     <Typography variant="title" color="inherit">
-//                         <Link className="Nav-link" to="/bio">Bio</Link>
-//                         <Link className="Nav-link" to="/issues">Issues</Link>
-//                         <Link className="Nav-link" to="/experience">Board Experience</Link>
-//                         <Link className="Nav-link" to="/interest">Interests</Link>
-//                         <Link className="Nav-link" to="/endorsements">Endorsements</Link>
-//                     </Typography>
-//                 </Toolbar>
-//             </AppBar>
-//         </div>
-//     )
-// }
-
-// export default NavBar;
-
 class ButtonAppBar extends React.Component {
     state = {
         anchorEl: null,
@@ -100,10 +80,11 @@ class ButtonAppBar extends React.Component {
         const { anchorEl, page } = this.state
         const { classes } = this.props
 
+        console.log(classes)
         return (
             <div className={classes.root}>
                 <AppBar position="static" className={classes.navBar}>
-                    <Toolbar>
+                    <Toolbar >
                         <div className={classes.bigScreenNav}>
                             <Button href="/bio"
                                 className={page === '/bio' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
@@ -154,8 +135,8 @@ class ButtonAppBar extends React.Component {
                             </Menu>
                         </div>
                         <Icons />
-                    </Toolbar>
-                </AppBar>
+                        </Toolbar>
+                        </AppBar>
             </div>
         )
     }

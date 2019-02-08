@@ -3,6 +3,9 @@ import React from 'react';
 const Bio = () => {
     return (
         <span>
+        <div>
+            <img src="./images/Steven Rosenblum Picture.jpg" className="Photo-big" alt="Steven Rosenblum"/> 
+        </div>
             <div className="text">
                 <h2 align="center">
                     Biography

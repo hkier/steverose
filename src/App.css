@@ -29,7 +29,18 @@
 }
 
 .Photo-big {
-  width: 100%;
+  width: 50%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 15px;
+  margin-right: 10px; 
+  float: left;
+}
+
+.Photo-test {
+  width: 30%;
   height: auto;
   padding: 10px; 
   border: 2px; 
@@ -40,7 +51,7 @@
 }
 
 .Icon-small {
-  width: 7%;
+  width: 10%;
   height: auto;
   padding: 2px;
   float: right;
@@ -53,6 +64,16 @@
 .Menu-bar {
   color: #990041;
 
+}
+
+.Footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0px + 2vmin);
+  color: white;
 }
 
 @keyframes App-logo-spin {
