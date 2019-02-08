@@ -22,6 +22,39 @@
   color: #61dafb;
 }
 
+.Nav-link {
+  padding: 10px;
+  color: white;
+  background-color: #990041;
+}
+
+.Photo-big {
+  width: 100%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 15px;
+  margin-right: 10px; 
+  float: left;
+}
+
+.Icon-small {
+  width: 7%;
+  height: auto;
+  padding: 2px;
+  float: right;
+}
+
+.text {
+  padding-left: 15px;
+}
+
+.Menu-bar {
+  color: #990041;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
