@@ -80,7 +80,7 @@ class ButtonAppBar extends React.Component {
         const { anchorEl, page } = this.state
         const { classes } = this.props
 
-        console.log(classes)
+        console.log("state is:",this.state)
         return (
             <div className={classes.root}>
                 <AppBar position="static" className={classes.navBar}>

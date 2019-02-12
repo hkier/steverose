@@ -39,7 +39,18 @@
   float: left;
 }
 
-.Photo-test {
+.Photo-med {
+  width: 40%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 0px;
+  margin-right: 10px; 
+  float: left;
+}
+
+.Photo-testing {
   width: 30%;
   height: auto;
   padding: 10px; 
