@@ -11,7 +11,11 @@ const Splash = () => {
                     Welcome
                 </h2>
                 <p>
-                    Steve believes in equality, life libery and the pursuit of happiness.
+                Steven has always had a passion for helping others. This love has driven him to a 
+                profession in human resources, volunteering across the community and public service. 
+                He has worked as a human resources professional for several companies over the last 30 
+                years in retail, telecommunications, metals fabrication and distribution, education, 
+                construction and information technologies.
                 </p>
                 
             </div>
