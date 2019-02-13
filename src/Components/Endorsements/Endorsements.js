@@ -9,8 +9,8 @@ const Endorsements = () => {
             <div>
                 <img src="./images/Steve and Friend.jpg" className="Photo-med" alt="Steven Rosenblum" />
             </div>
-            <ul>
-                <li>
+            <ul className="List">
+                <li className="List-item">
                     U.S. Congressman Raja Krishnamoorthi
                     <p>
                     “I endorse Steven Rosenblum for Township High School District 211’s 
@@ -19,22 +19,22 @@ const Endorsements = () => {
                     that our children and public schools are critical to our community’s success.”
                     </p>
                 </li>
-                <li>
+                <li className="List-item">
                     Hoffman Estates Mayor William McLeod
                 </li>
-                <li>
+                <li className="List-item">
                     State Representatives Michelle Mussman and Fred Crespo
                 </li>
-                <li>
+                <li className="List-item">
                     Township High School District 211 Board of Education President Mucia Burke
                 </li>
-                <li>
+                <li className="List-item">
                     Elementary School District 54 Board President Mary Kay Prusnick
                 </li>
-                <li>
+                <li className="List-item">
                     Hoffman Estates Park District Board of Commissioners President Robert Kaplan
                 </li>
-                <li>
+                <li className="List-item">
                     Hoffman Estates Park District Board of Commissioners Vice President Patrick Kinnane
                 </li>
             </ul>
