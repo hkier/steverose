@@ -4,19 +4,19 @@ const Endorsements = () => {
     return (
         <div>
             <h2 align="center">
-                Endorsements for Steven Rosenblum.
+                Endorsed by...
             </h2>
             <div>
-                <img src="./images/Steve and Friend.jpg" className="Photo-med" alt="Steven Rosenblum" />
+            <img src="./images/Steve and Raja.jpg" className="Photo-med" alt="Steven Rosenblum" />
             </div>
             <ul className="List">
                 <li className="List-item">
-                    U.S. Congressman Raja Krishnamoorthi
-                    <p>
-                    “I endorse Steven Rosenblum for Township High School District 211’s 
-                    Board of Education. A fellow resident of Schaumburg, Steven is dedicated to public service 
-                    and the support of  public education. He is committed to our community, and he knows 
-                    that our children and public schools are critical to our community’s success.”
+                    U.S. Congressman Raja Krishnamoorthi:
+                    <p className="Italic">
+                        “I endorse Steven Rosenblum for Township High School District 211’s
+                        Board of Education. A fellow resident of Schaumburg, Steven is dedicated to public service
+                        and the support of  public education. He is committed to our community, and he knows
+                        that our children and public schools are critical to our community’s success.”
                     </p>
                 </li>
                 <li className="List-item">
@@ -29,10 +29,10 @@ const Endorsements = () => {
                     Township High School District 211 Board of Education President Mucia Burke
                 </li>
                 <li className="List-item">
-                    Elementary School District 54 Board President Mary Kay Prusnick
+                Hoffman Estates Park District Board of Commissioners President Robert Kaplan
                 </li>
                 <li className="List-item">
-                    Hoffman Estates Park District Board of Commissioners President Robert Kaplan
+                    Elementary School District 54 Board President Mary Kay Prusnick
                 </li>
                 <li className="List-item">
                     Hoffman Estates Park District Board of Commissioners Vice President Patrick Kinnane

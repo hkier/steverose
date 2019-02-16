@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <div>
             <h2 align="center">
-                Steven Rosenblum's Accomplishments
+                Board of Education Accomplishments
         </h2>
             <div>
                 <img src="./images/Steve 211BOE.jpg" className="Photo-med" alt="Steven Rosenblum" />
@@ -56,16 +56,16 @@ const Experience = () => {
                     Earned the following recognition and certificates:
                 </li>
                 <ul>
-                    <li>
+                    <li className="List-item">
                         Two-time Certificates of Recognition for representing Township High School District 211 at the Illinois Association of School Boards Delegate Assembly (2017, 2018)
                     </li>
-                    <li>
+                    <li className="List-item">
                         Professional Development Leadership Training (PDLT)
                     </li>
-                    <li>
+                    <li className="List-item">
                         Performance Evaluation Reform Act (PERA) Training for School Board Members
                     </li>
-                    <li>
+                    <li className="List-item">
                         Open Meetings Act Training for School Board Members
                     </li>
                 </ul>

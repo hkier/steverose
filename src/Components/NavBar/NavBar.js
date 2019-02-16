@@ -80,7 +80,6 @@ class ButtonAppBar extends React.Component {
         const { anchorEl, page } = this.state
         const { classes } = this.props
 
-        console.log("state is:",this.state)
         return (
             <div className={classes.root}>
                 <AppBar position="static" className={classes.navBar}>
@@ -105,7 +104,8 @@ class ButtonAppBar extends React.Component {
                             <Button href="/endorsements"
                                 className={page === '/endorsements' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
                                 Endorsements
-							</Button>
+                                <Icons />
+                            </Button>
                         </div>
                         <div className={classes.smallScreenNav}>
                             <IconButton
@@ -133,10 +133,10 @@ class ButtonAppBar extends React.Component {
                                     <a href="/endorsements" className={classes.menuItem}>Endorsements</a>
                                 </MenuItem>
                             </Menu>
+                            <Icons/>
                         </div>
-                        <Icons />
-                        </Toolbar>
-                        </AppBar>
+                    </Toolbar>
+                </AppBar>
             </div>
         )
     }

@@ -50,6 +50,17 @@
   float: left;
 }
 
+.Photo-med-right {
+  width: 40%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 0px;
+  margin-left: 10px; 
+  float: right;
+}
+
 .Photo-testing {
   width: 30%;
   height: auto;
@@ -66,6 +77,13 @@
   height: auto;
   padding: 2px;
   float: right;
+  align-items: center;
+}
+
+.Italic {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-style: italic;
+  
 }
 
 .text {
