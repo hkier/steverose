@@ -32,7 +32,7 @@ const Endorsements = () => {
                 Hoffman Estates Park District Board of Commissioners President Robert Kaplan
                 </li>
                 <li className="List-item">
-                    Elementary School District 54 Board President Mary Kay Prusnick
+                    Elementary School District 54 Board of Education President Mary Kay Prusnick
                 </li>
                 <li className="List-item">
                     Hoffman Estates Park District Board of Commissioners Vice President Patrick Kinnane

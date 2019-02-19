@@ -33,7 +33,7 @@ August 2017, his volunteer background includes the following:</p>
                         Planning Committee, Tour de Cure
                     </li>
                     <li className="List-item">
-                        Executive and Planning Committee, Step Out Walkto Fight Diabetes
+                        Executive and Planning Committee, Step Out Walk to Fight Diabetes
                     </li>
                     <li className="List-item">
                         Volunteer Leadership Board of Directors

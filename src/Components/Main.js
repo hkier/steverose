@@ -5,6 +5,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import Header from './Header';
 import NavBar from './NavBar';
 import Bio from './Bio';
+import Donate from './Donate';
 import Issues from './Issues';
 import Experience from './Experience';
 import Interests from './Interests';
@@ -22,15 +23,16 @@ const App = () => (
                 <div className="app">
                     <NavBar />
                     <Header />
-                    <Grid container spacing={10} justify="center" alignItems="flex-start">
+                    <Grid container spacing={8} justify="center" alignItems="flex-start">
 
-                        <Grid container item xs={10}>
+                        <Grid container item xs={8}>
                             <Switch>
                                 <Route path="/bio" component={Bio} />
                                 <Route path="/issues" component={Issues} />
                                 <Route path="/experience" component={Experience} />
                                 <Route path="/interest" component={Interests} />
                                 <Route path="/endorsements" component={Endorsements} />
+                                <Route path="/donate" component={Donate} />
                                 <Route path="/" component={Splash} />
                             </Switch>
                         </Grid>
