@@ -2,7 +2,6 @@ import React from 'react';
 
 const Donate = () => {
     return (
-        <span>
             <div className="text">
                 <h2 align="center">
                     Donate
@@ -18,10 +17,18 @@ const Donate = () => {
                     Thank you!
                 </p>
                 <div>
-                <img src="./images/QR Code.jpg" width="10%" alt="QR Code" />
+                    <img src="./images/QR Code.jpg" width="10%" alt="QR Code" />
+                </div>
+                <p>
+                A copy of our report filed with the State Board of Elections is (or will be) 
+                available on the Board’s official website (
+                <a href="https://www.elections.il.gov/">
+                www.elections.il.gov
+                </a>
+                ) or for purchase from the 
+                State Board of Elections, Springfield, Illinois.
+                </p>
             </div>
-            </div>
-        </span>
 
     )
 }
