@@ -105,10 +105,7 @@ class ButtonAppBar extends React.Component {
                                 className={page === '/endorsements' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
                                 Endorsements
                             </Button>
-                            <Button href="/donate"
-                                className={page === '/donate' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
-                                Donate
-                            </Button>
+
 
                         </div>
                         <div className={classes.smallScreenNav}>
@@ -156,3 +153,8 @@ ButtonAppBar.propTypes = {
 
 export default withStyles(styles)(ButtonAppBar)
 
+// Moved from inline because Donations are not active and we will need this code during the next election.
+// <Button href="/donate"
+// className={page === '/donate' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
+// Donate
+// </Button>
