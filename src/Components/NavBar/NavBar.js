@@ -133,9 +133,7 @@ class ButtonAppBar extends React.Component {
                                 <MenuItem onClick={this.handleClose}>
                                     <a href="/endorsements" className={classes.menuItem}>Endorsements</a>
                                 </MenuItem>
-                                <MenuItem onClick={this.handleClose}>
-                                <a href="/donate" className={classes.menuItem}>Donate</a>
-                            </MenuItem>
+
                             </Menu>
                         </div>
                         <Icons />
@@ -158,3 +156,8 @@ export default withStyles(styles)(ButtonAppBar)
 // className={page === '/donate' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
 // Donate
 // </Button>
+
+
+// <MenuItem onClick={this.handleClose}>
+// <a href="/donate" className={classes.menuItem}>Donate</a>
+// </MenuItem>

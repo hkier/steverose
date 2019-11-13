@@ -32,7 +32,6 @@ const App = () => (
                                 <Route path="/experience" component={Experience} />
                                 <Route path="/interest" component={Interests} />
                                 <Route path="/endorsements" component={Endorsements} />
-                                <Route path="/donate" component={Donate} />
                                 <Route path="/" component={Splash} />
                             </Switch>
                         </Grid>
@@ -43,6 +42,7 @@ const App = () => (
         </MuiThemeProvider>
     </div>
 );
-
+// Moved from in-line and commented out 
+// <Route path="/donate" component={Donate} />
 
 export default App;
