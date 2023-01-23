@@ -29,7 +29,40 @@
 }
 
 .Photo-big {
-  width: 100%;
+  width: 50%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 15px;
+  margin-right: 10px; 
+  float: left;
+}
+
+.Photo-med {
+  width: 40%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 0px;
+  margin-right: 10px; 
+  float: left;
+}
+
+.Photo-med-right {
+  width: 40%;
+  height: auto;
+  padding: 10px; 
+  border: 2px; 
+  border-color: red;
+  margin-top: 0px;
+  margin-left: 10px; 
+  float: right;
+}
+
+.Photo-testing {
+  width: 30%;
   height: auto;
   padding: 10px; 
   border: 2px; 
@@ -40,10 +73,17 @@
 }
 
 .Icon-small {
-  width: 7%;
+  width: 10%;
   height: auto;
   padding: 2px;
   float: right;
+  align-items: center;
+}
+
+.Italic {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-style: italic;
+  
 }
 
 .text {
@@ -52,6 +92,27 @@
 
 .Menu-bar {
   color: #990041;
+
+}
+
+.Footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(0px + 2vmin);
+  color: white;
+}
+
+.List {
+  margin-left: 0em;
+  padding-inline-start: 10px;  
+}
+
+.List-item{
+  position: relative;
+  left: 1em;
 
 }
 

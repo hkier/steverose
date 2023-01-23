@@ -53,26 +53,6 @@ const styles = {
     },
 }
 
-// const NavBar = () => {
-//     return (
-//         <div>
-//             <AppBar position="static" className="Menu-bar">
-//                 <Toolbar >
-//                     <Typography variant="title" color="inherit">
-//                         <Link className="Nav-link" to="/bio">Bio</Link>
-//                         <Link className="Nav-link" to="/issues">Issues</Link>
-//                         <Link className="Nav-link" to="/experience">Board Experience</Link>
-//                         <Link className="Nav-link" to="/interest">Interests</Link>
-//                         <Link className="Nav-link" to="/endorsements">Endorsements</Link>
-//                     </Typography>
-//                 </Toolbar>
-//             </AppBar>
-//         </div>
-//     )
-// }
-
-// export default NavBar;
-
 class ButtonAppBar extends React.Component {
     state = {
         anchorEl: null,
@@ -103,7 +83,7 @@ class ButtonAppBar extends React.Component {
         return (
             <div className={classes.root}>
                 <AppBar position="static" className={classes.navBar}>
-                    <Toolbar>
+                    <Toolbar >
                         <div className={classes.bigScreenNav}>
                             <Button href="/bio"
                                 className={page === '/bio' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
@@ -124,7 +104,9 @@ class ButtonAppBar extends React.Component {
                             <Button href="/endorsements"
                                 className={page === '/endorsements' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
                                 Endorsements
-							</Button>
+                            </Button>
+
+
                         </div>
                         <div className={classes.smallScreenNav}>
                             <IconButton
@@ -151,6 +133,7 @@ class ButtonAppBar extends React.Component {
                                 <MenuItem onClick={this.handleClose}>
                                     <a href="/endorsements" className={classes.menuItem}>Endorsements</a>
                                 </MenuItem>
+
                             </Menu>
                         </div>
                         <Icons />
@@ -168,3 +151,13 @@ ButtonAppBar.propTypes = {
 
 export default withStyles(styles)(ButtonAppBar)
 
+// Moved from inline because Donations are not active and we will need this code during the next election.
+// <Button href="/donate"
+// className={page === '/donate' ? classes.desktopMenuButtonActive : classes.desktopMenuButtonInactive}>
+// Donate
+// </Button>
+
+
+// <MenuItem onClick={this.handleClose}>
+// <a href="/donate" className={classes.menuItem}>Donate</a>
+// </MenuItem>

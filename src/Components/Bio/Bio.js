@@ -6,7 +6,10 @@ const Bio = () => {
             <div className="text">
                 <h2 align="center">
                     Biography
-                </h2>
+        </h2>
+                <div>
+                    <img src="./images/Steve and Ellen 3.jpg" className="Photo-med" alt="Steven Rosenblum" />
+                </div>
                 <p>
                     Steven grew up in northeastern Ohio the son, grandson and nephew of
                     teachers and community volunteers. It was in this environment that his
@@ -31,9 +34,9 @@ const Bio = () => {
                     Human Resources from Keller Graduate School while working at DeVry University.
                 </p>
                 <p>
-                    Married for over 30 years, Steven and Ellen have been residents of Schaumburg 
-                    for more than 20 years. Their children Mark and Sidney both graduated from Schaumburg 
-                    High School. Mark lives nearby in Schaumburg and Sidney is a sophomore at Indiana 
+                    Married for over 30 years, Steven and Ellen have been residents of Schaumburg
+                    for more than 20 years. Their children Mark and Sidney both graduated from Schaumburg
+                    High School. Mark lives nearby in Schaumburg and Sidney is a sophomore at Indiana
                     University majoring in Education.
                 </p>
             </div>
